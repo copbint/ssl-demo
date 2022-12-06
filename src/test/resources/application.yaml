@@ -1,0 +1,10 @@
+server:
+  ssl:
+    enabled: true
+    keyStore: classpath:ssl/keystore.jks
+    keyStorePassword: 123456
+    keyStoreType: JKS
+    trustStore: classpath:ssl/truststore.jks
+    trustStorePassword: 123456
+    trustStoreType: JKS
+    ciphers: TLS_AES_256_GCM_SHA384
